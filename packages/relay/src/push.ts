@@ -109,7 +109,7 @@ const main = async () => {
     console.log(e)
   }
 
-  await proveData({ 0: 15 })
+  await proveData({ 0: 2 })
   await userState.sync.stop()
   process.exit(0)
 }
